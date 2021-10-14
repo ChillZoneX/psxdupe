@@ -1,0 +1,22 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Pet Simulator X Dupe",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Dupe Gems",
+
+
+})
+
+Page.Button({
+    Text = "Dupe Gems",
+    Callback = function()
+        
+    end
+})
