@@ -9,7 +9,7 @@ local UI = Material.Load({
 })
 
 local Page = UI.New({
-    Title = "Dupe Gems",
+    Title = "fix anticheats",
 
 
 })
